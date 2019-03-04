@@ -48,6 +48,10 @@ module.exports = {
                 options: {
                     name: 'fonts/[hash].[name].[ext]',
                     limit: 8192,
+                    context: 'src/',
+                    outputPath: 'fonts/',
+                    publicPath: '../../fonts/',
+                    useRelativePath: false,
                     fallback: 'file-loader'
                 }
             }]
@@ -83,11 +87,13 @@ module.exports = {
                     attrs: ['img:src']
                 }
             }],
-        },
-            {
-                test: /\.art$/,
-                loader: 'art-template-loader'
-            }
+        }, {
+            test: /\.art$/,
+            loader: 'art-template-loader'
+        }, {
+            test: require.resolve('../src/vendors/layui/layui.all.js'),
+            loader: 'exports-loader?window.layui!script-loader'
+        }
         ]
     },
     plugins: [
