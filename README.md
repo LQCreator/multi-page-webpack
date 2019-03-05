@@ -38,6 +38,6 @@
 ```
 ## 使用
 `npm install`      
-`安装依赖包`
+`安装依赖包`  
 `npm run dev`    
 `webpack-dev-server启动HMR`
