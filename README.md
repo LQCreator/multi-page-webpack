@@ -16,23 +16,25 @@
   * splitChunks分离第三库和公共代码块
   * UglifyJsPlugin打包压缩
 ## 结构
-|-- .babelrc<br>
-|-- .gitignore<br>
-|-- package.json<br>
-|-- postcss.config.js<br>
-|-- README.md<br>
-|-- config<br>
-|   |-- config.js<br>
-|   |-- webapck.config.prod.js<br>
-|   |-- webpack.config.base.js<br>
-|   |-- webpack.config.dev.js<br>
-|   |-- webpack.config.test.js<br>
+```
+|-- .babelrc
+|-- .gitignore
+|-- package.json
+|-- postcss.config.js
+|-- README.md
+|-- config
+|   |-- config.js
+|   |-- webapck.config.prod.js
+|   |-- webpack.config.base.js
+|   |-- webpack.config.dev.js
+|   |-- webpack.config.test.js
 |-- src<br>
-|   |-- index.html<br>
-|   |-- index.js<br>
-|   |-- common<br>
-|   |-- login<br>
-|   |-- person<br>
-|   |-- vendors<br>
-|       |-- layui<br>
+|   |-- index.html
+|   |-- index.js
+|   |-- common
+|   |-- login
+|   |-- person
+|   |-- vendors
+|       |-- layui
+```
 ## 使用
