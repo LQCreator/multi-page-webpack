@@ -16,48 +16,23 @@
   * splitChunks分离第三库和公共代码块
   * UglifyJsPlugin打包压缩
 ## 结构
-|-- .babelrc
-|-- .gitignore
-|-- package.json
-|-- postcss.config.js
-|-- README.md
-|-- config
-|   |-- config.js
-|   |-- webapck.config.prod.js
-|   |-- webpack.config.base.js
-|   |-- webpack.config.dev.js
-|   |-- webpack.config.test.js
-|-- src
-|   |-- index.html
-|   |-- index.js
-|   |-- common
-|   |   |-- common.js
-|   |   |-- util.js
-|   |-- login
-|   |   |-- index.html
-|   |   |-- css
-|   |   |   |-- index.scss
-|   |   |-- img
-|   |   |   |-- bgr.jpg
-|   |   |-- js
-|   |   |   |-- index.js
-|   |   |-- tpl
-|   |       |-- index.art
-|   |-- person
-|   |   |-- index.html
-|   |   |-- index2.html
-|   |   |-- css
-|   |   |   |-- index.scss
-|   |   |   |-- index2.scss
-|   |   |-- img
-|   |   |   |-- yunshao.gif
-|   |   |-- js
-|   |   |   |-- index.js
-|   |   |   |-- index2.js
-|   |   |-- tpl
-|   |       |-- add.art
-|   |       |-- back.art
-|   |       |-- operate.art
-|   |-- vendors
-|       |-- layui
+|-- .babelrc<br>
+|-- .gitignore<br>
+|-- package.json<br>
+|-- postcss.config.js<br>
+|-- README.md<br>
+|-- config<br>
+|   |-- config.js<br>
+|   |-- webapck.config.prod.js<br>
+|   |-- webpack.config.base.js<br>
+|   |-- webpack.config.dev.js<br>
+|   |-- webpack.config.test.js<br>
+|-- src<br>
+|   |-- index.html<br>
+|   |-- index.js<br>
+|   |-- common<br>
+|   |-- login<br>
+|   |-- person<br>
+|   |-- vendors<br>
+|       |-- layui<br>
 ## 使用
