@@ -95,3 +95,15 @@
     |           |-- person_index.3976c113cdfa75162e57.js
     |           |-- person_index2.b793a50ed98ba38ae80c.js
 ```
+## 注意
+```
+打包生成的html文件会被放在dist/html下面，所以默认首页跳转路径跟目录结构路径有所区别，window.location.href = './html/login/index.html';需要加上
+html文件夹。建议，默认首页只做跳转，不作为登录页。
+npm run build会在8888端口启动BundleAnalyzerPlugin，用来可视化分析打包后的文件。
+```
+## 示例
+```
+示例位于src目录下，npm run dev就可以启动示例。
+```
+## 感谢
+`谢谢大家的指正与意见！`
