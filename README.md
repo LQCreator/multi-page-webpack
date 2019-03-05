@@ -17,24 +17,23 @@
   * UglifyJsPlugin打包压缩
 ## 结构
 ```
-|-- .babelrc
-|-- .gitignore
-|-- package.json
-|-- postcss.config.js
-|-- README.md
-|-- config
-|   |-- config.js
-|   |-- webapck.config.prod.js
-|   |-- webpack.config.base.js
-|   |-- webpack.config.dev.js
-|   |-- webpack.config.test.js
-|-- src<br>
-|   |-- index.html
-|   |-- index.js
-|   |-- common
-|   |-- login
-|   |-- person
-|   |-- vendors
+|-- config                                    //配置文件目录
+|   |-- config.js                             //基础路径配置
+|   |-- webapck.config.prod.js                //线上环境配置文件
+|   |-- webpack.config.base.js                //公共配置文件
+|   |-- webpack.config.dev.js                 //开发环境配置文件
+|-- src                                       //业务代码目录
+|   |-- index.html                            //默认首页模板
+|   |-- index.js                              //默认首页入口
+|   |-- common                                //公共库目录
+|   |-- login                                 //示例
+|   |-- person                                //示例
+|   |-- vendors                               //第三方库文件目录
 |       |-- layui
+|-- .babelrc                                  //babel配置文件
+|-- .gitignore                                //git忽略文件
+|-- package.json                              //npm包管理文件
+|-- postcss.config.js                         //postcss配置文件
+|-- README.md
 ```
 ## 使用
