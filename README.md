@@ -11,3 +11,7 @@
 * 开发环境
   * HMR 
 * 线上环境
+  * MiniCssExtractPlugin提取css，sass代码块
+  * OptimizeCssAssetsPlugin优化压缩css，sass资源
+  * splitChunks分离第三库和公共代码块
+  * UglifyJsPlugin打包压缩
