@@ -51,4 +51,47 @@
     
 `npm run webpack-debugger`  
 `配合chrome://inspect/#devices，对配置文件进行调试`  
-## 生成的目录结构  
+## 生成的目录结构   
+```
+|-- dist
+    |   |-- index.html
+    |   |-- css
+    |   |   |-- layui.d6865fef6ea19ac3ba85.css
+    |   |   |-- login
+    |   |   |   |-- login_index.74223b980dfe63cca92b.css
+    |   |   |-- person
+    |   |       |-- person_index.3976c113cdfa75162e57.css
+    |   |       |-- person_index2.b793a50ed98ba38ae80c.css
+    |   |-- fonts
+    |   |   |-- 0208023e7b4a46473764cc8a59eef107.iconfont.eot
+    |   |   |-- d8583a8444b3b76b28c9c7436abc7cbe.iconfont.ttf
+    |   |   |-- e9caaa0617fa61c01f765960d10da0ef.iconfont.woff
+    |   |-- html
+    |   |   |-- login
+    |   |   |   |-- index.html
+    |   |   |-- person
+    |   |       |-- index.html
+    |   |       |-- index2.html
+    |   |-- img
+    |   |   |-- login
+    |   |   |   |-- img
+    |   |   |       |-- bgr.jpg
+    |   |   |-- vendors
+    |   |       |-- layui
+    |   |           |-- css
+    |   |           |   |-- modules
+    |   |           |       |-- layer
+    |   |           |           |-- default
+    |   |           |               |-- icon.png
+    |   |           |-- font
+    |   |               |-- iconfont.svg
+    |   |-- js
+    |       |-- index.7b3434a8e1da54a75754.js
+    |       |-- jquery.0d32a07b39f97df49408.js
+    |       |-- layui.d6865fef6ea19ac3ba85.js
+    |       |-- login
+    |       |   |-- login_index.74223b980dfe63cca92b.js
+    |       |-- person
+    |           |-- person_index.3976c113cdfa75162e57.js
+    |           |-- person_index2.b793a50ed98ba38ae80c.js
+```
