@@ -1,6 +1,6 @@
 # multi-page-webpack
 多页面，webpack4，layui，jquery，artTemplate项目框架
-# 简介
+## 简介
 主要实现一个基于webpack4的多页开发项目框架，整合layui组件，jquery库以及artTemlate模板。
 * 基础环境
   * HtmlWebpackPlugin，glob处理多页模板入口
@@ -15,3 +15,5 @@
   * OptimizeCssAssetsPlugin优化压缩css，sass资源
   * splitChunks分离第三库和公共代码块
   * UglifyJsPlugin打包压缩
+## 结构
+## 使用
