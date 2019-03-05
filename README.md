@@ -16,4 +16,48 @@
   * splitChunks分离第三库和公共代码块
   * UglifyJsPlugin打包压缩
 ## 结构
+|-- .babelrc
+|-- .gitignore
+|-- package.json
+|-- postcss.config.js
+|-- README.md
+|-- config
+|   |-- config.js
+|   |-- webapck.config.prod.js
+|   |-- webpack.config.base.js
+|   |-- webpack.config.dev.js
+|   |-- webpack.config.test.js
+|-- src
+|   |-- index.html
+|   |-- index.js
+|   |-- common
+|   |   |-- common.js
+|   |   |-- util.js
+|   |-- login
+|   |   |-- index.html
+|   |   |-- css
+|   |   |   |-- index.scss
+|   |   |-- img
+|   |   |   |-- bgr.jpg
+|   |   |-- js
+|   |   |   |-- index.js
+|   |   |-- tpl
+|   |       |-- index.art
+|   |-- person
+|   |   |-- index.html
+|   |   |-- index2.html
+|   |   |-- css
+|   |   |   |-- index.scss
+|   |   |   |-- index2.scss
+|   |   |-- img
+|   |   |   |-- yunshao.gif
+|   |   |-- js
+|   |   |   |-- index.js
+|   |   |   |-- index2.js
+|   |   |-- tpl
+|   |       |-- add.art
+|   |       |-- back.art
+|   |       |-- operate.art
+|   |-- vendors
+|       |-- layui
 ## 使用
