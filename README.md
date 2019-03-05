@@ -22,7 +22,7 @@
 |-- postcss.config.js<br>
 |-- README.md<br>
 |-- config<br>
-| >> |-- config.js<br>
+>> |-- config.js<br>
 |   |-- webapck.config.prod.js<br>
 |   |-- webpack.config.base.js<br>
 |   |-- webpack.config.dev.js<br>
