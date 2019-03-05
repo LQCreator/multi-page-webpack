@@ -38,7 +38,6 @@ module.exports = {
         path: config.BUILD_PATH,//目标输出目录 path 的绝对路径
     },
     module: {
-        // noParse: /layui|layui-src/,
         rules: [{
             test: /\.(woff|woff2|eot|ttf|otf)$/,
             // include: [config.SRC_PATH],//需要被loader 处理的文件或文件夹

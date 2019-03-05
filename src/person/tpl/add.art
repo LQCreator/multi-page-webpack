@@ -1,0 +1,46 @@
+<form class="layui-form  modal-container" onsubmit="return false;">
+    <div class="layui-form-item">
+        <label class="layui-form-label required">名称</label>
+        <div class="layui-input-block">
+            <input type="text" name="name" value="{{flag || ''}}" placeholder="请输入账号名称" autocomplete="off" class="layui-input" lay-verify="required">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label required">账户密码</label>
+        <div class="layui-input-block">
+            <input type="text" name="password" value="{{employeeName || ''}}" placeholder="请输入账户密码" autocomplete="off" class="layui-input" lay-verify="required">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label required">重复密码</label>
+        <div class="layui-input-block">
+            <input type="text" name="employeeName" value="{{employeeName || ''}}" placeholder="请输入账户密码" autocomplete="off" class="layui-input" lay-verify="required">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label required">类型</label>
+        <div class="layui-input-block">
+            <select name="" lay-verify="required">
+                <option value=""></option>
+                <option value="0">男</option>
+                <option value="1">女</option>
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label required">角色</label>
+        <div class="layui-input-block">
+            <select name="" lay-verify="required">
+                <option value=""></option>
+                <option value="0">男</option>
+                <option value="1">女</option>
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label required">状态</label>
+        <div class="layui-input-block">
+            <input type="checkbox" checked="" name="open" lay-skin="switch" lay-filter="switchStatus" lay-text="开|关">
+        </div>
+    </div>
+</form>
