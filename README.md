@@ -41,4 +41,13 @@
 `安装依赖包`  
   
 `npm run dev`    
-`webpack-dev-server启动HMR`
+`webpack-dev-server启动HMR`  
+  
+ `npm run dev2`  
+ `生成开发环境的包，主要用于调试开发环境配置`  
+   
+  `npm run build`  
+  `生成线上环境的包，主要用于线上环境部署`  
+    
+   `npm run webpack-debugger`  
+   `配合chrome://inspect/#devices，对配置文件进行调试`
