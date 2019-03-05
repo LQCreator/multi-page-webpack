@@ -53,26 +53,26 @@
 `配合chrome://inspect/#devices，对配置文件进行调试`  
 ## 生成的目录结构   
 ```
-|-- dist
+|-- dist                                                                //dist为打包后生成的目录
     |   |-- index.html
-    |   |-- css
+    |   |-- css                                                         //提取css的目录，并分别放到对应模块的文件夹中
     |   |   |-- layui.d6865fef6ea19ac3ba85.css
     |   |   |-- login
     |   |   |   |-- login_index.74223b980dfe63cca92b.css
     |   |   |-- person
     |   |       |-- person_index.3976c113cdfa75162e57.css
     |   |       |-- person_index2.b793a50ed98ba38ae80c.css
-    |   |-- fonts
+    |   |-- fonts                                                       //提取字体的目录
     |   |   |-- 0208023e7b4a46473764cc8a59eef107.iconfont.eot
     |   |   |-- d8583a8444b3b76b28c9c7436abc7cbe.iconfont.ttf
     |   |   |-- e9caaa0617fa61c01f765960d10da0ef.iconfont.woff
-    |   |-- html
+    |   |-- html                                                        //html生成目录
     |   |   |-- login
     |   |   |   |-- index.html
     |   |   |-- person
     |   |       |-- index.html
     |   |       |-- index2.html
-    |   |-- img
+    |   |-- img                                                         //图片提取目录，并分别放到对应模块的文件夹下面
     |   |   |-- login
     |   |   |   |-- img
     |   |   |       |-- bgr.jpg
@@ -85,10 +85,10 @@
     |   |           |               |-- icon.png
     |   |           |-- font
     |   |               |-- iconfont.svg
-    |   |-- js
-    |       |-- index.7b3434a8e1da54a75754.js
-    |       |-- jquery.0d32a07b39f97df49408.js
-    |       |-- layui.d6865fef6ea19ac3ba85.js
+    |   |-- js                                                           //js bundle生成目录
+    |       |-- index.7b3434a8e1da54a75754.js                            //默认首页的js bundle
+    |       |-- jquery.0d32a07b39f97df49408.js                           //抽离的jquery包
+    |       |-- layui.d6865fef6ea19ac3ba85.js                            //抽离的layui包
     |       |-- login
     |       |   |-- login_index.74223b980dfe63cca92b.js
     |       |-- person
