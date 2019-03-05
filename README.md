@@ -37,3 +37,4 @@
 |-- README.md
 ```
 ## 使用
+`npm install`
